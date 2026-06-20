@@ -4,6 +4,7 @@ from flask_jwt_extended import JWTManager
 
 from config import Config
 from models.user import db
+from models.product import Product
 from routes.auth_routes import auth_bp
 
 app = Flask(__name__)
